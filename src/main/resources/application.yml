@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: openshift-playground
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
