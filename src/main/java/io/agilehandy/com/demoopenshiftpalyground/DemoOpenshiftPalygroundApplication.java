@@ -12,11 +12,4 @@ public class DemoOpenshiftPalygroundApplication {
 		SpringApplication.run(DemoOpenshiftPalygroundApplication.class, args);
 	}
 
-	class MyRestController {
-
-		@GetMapping
-		public Mono<String> ping() {
-			return Mono.just("Hello from OpenShift!");
-		}
-	}
 }
