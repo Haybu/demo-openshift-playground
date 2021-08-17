@@ -9,6 +9,6 @@ public class MyController {
 
     @GetMapping("/")
     public Mono<String> ping() {
-        return Mono.just("Hello from OpenShift!");
+        return Mono.just("Hello from OpenShift with mongodb!");
     }
 }
