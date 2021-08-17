@@ -1,9 +1,19 @@
 spring:
   application:
     name: openshift-playground
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: testdb
 
 management:
   endpoints:
     web:
       exposure:
         include: '*'
+
+logging:
+  level:
+    org.springframework: ERROR
+
