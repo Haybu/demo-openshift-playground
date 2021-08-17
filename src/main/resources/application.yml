@@ -17,3 +17,6 @@ logging:
   level:
     org.springframework: ERROR
 
+
+app.direction: North
+
